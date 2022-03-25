@@ -129,7 +129,7 @@ function parallax(e) {
           <p class="text-xl mt-2 text-center">Indiedu 3</p>
         </swiper-slide>
         <swiper-slide>
-          <img src="/projects/indiedu/Indiedu-1.png" class="w-full" alt="" />
+          <img src="@/assets/img/projects/indiedu/Indiedu-1.png" class="w-full" alt="" />
           <p class="text-xl mt-2 text-center">Indiedu</p>
         </swiper-slide>
       </swiper>

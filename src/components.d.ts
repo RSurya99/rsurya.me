@@ -11,15 +11,6 @@ declare module 'vue' {
     BackgroundPatternStripDot: typeof import('./components/BackgroundPattern/StripDot.vue')['default']
     BackgroundPatternZigzag: typeof import('./components/BackgroundPattern/Zigzag.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
-    IconMdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
-    IconMdiClose: typeof import('~icons/mdi/close')['default']
-    IconMdiEmail: typeof import('~icons/mdi/email')['default']
-    IconMdiFolderOpenOutline: typeof import('~icons/mdi/folder-open-outline')['default']
-    IconMdiGithub: typeof import('~icons/mdi/github')['default']
-    IconMdiInstagram: typeof import('~icons/mdi/instagram')['default']
-    IconMdiLinkedin: typeof import('~icons/mdi/linkedin')['default']
-    IconMdiMenu: typeof import('~icons/mdi/menu')['default']
-    IconMdiTwitter: typeof import('~icons/mdi/twitter')['default']
     SectionNavbar: typeof import('./components/Section/Navbar.vue')['default']
   }
 }
