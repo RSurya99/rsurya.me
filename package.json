@@ -15,13 +15,16 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.5.0",
+    "@lottiefiles/vue-lottie-player": "^1.0.5",
     "@vueuse/core": "^7.7.0",
     "axios": "^0.26.1",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.11",
+    "swiper": "^8.0.7",
     "vue": "^3.2.31",
     "vue-i18n": "^9.1.9",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vue3-lottie": "^2.1.0"
   },
   "devDependencies": {
     "@iconify/json": "^2.1.7",

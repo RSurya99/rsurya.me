@@ -4,9 +4,23 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BackgroundPatternCross: typeof import('./components/BackgroundPattern/Cross.vue')['default']
+    BackgroundPatternPolygon3d: typeof import('./components/BackgroundPattern/Polygon3d.vue')['default']
+    BackgroundPatternSquare: typeof import('./components/BackgroundPattern/Square.vue')['default']
+    BackgroundPatternStripCircle: typeof import('./components/BackgroundPattern/StripCircle.vue')['default']
+    BackgroundPatternStripDot: typeof import('./components/BackgroundPattern/StripDot.vue')['default']
+    BackgroundPatternZigzag: typeof import('./components/BackgroundPattern/Zigzag.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
-    IconMdiBrightness6: typeof import('~icons/mdi/brightness6')['default']
-    IconMdiPlusCircle: typeof import('~icons/mdi/plus-circle')['default']
+    IconMdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
+    IconMdiClose: typeof import('~icons/mdi/close')['default']
+    IconMdiEmail: typeof import('~icons/mdi/email')['default']
+    IconMdiFolderOpenOutline: typeof import('~icons/mdi/folder-open-outline')['default']
+    IconMdiGithub: typeof import('~icons/mdi/github')['default']
+    IconMdiInstagram: typeof import('~icons/mdi/instagram')['default']
+    IconMdiLinkedin: typeof import('~icons/mdi/linkedin')['default']
+    IconMdiMenu: typeof import('~icons/mdi/menu')['default']
+    IconMdiTwitter: typeof import('~icons/mdi/twitter')['default']
+    SectionNavbar: typeof import('./components/Section/Navbar.vue')['default']
   }
 }
 

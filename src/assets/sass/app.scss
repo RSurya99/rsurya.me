@@ -1,12 +1,5 @@
 @import './font.scss';
 
-// apply fonts
-$fontFamily: 'Plus Jakarta Sans', sans-serif;
-body,
-* {
-  font-family: $fontFamily !important;
-}
-
 // scrollbar
 ::-webkit-scrollbar {
   width: 16px;
