@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Rubik', 'sans-serif'],
-      lightNovel: ['07LightNovelPOP', 'sans-serif'],
+      lightNovel: ['LightNovelPOP', 'sans-serif'],
     },
     extend: {},
   },
