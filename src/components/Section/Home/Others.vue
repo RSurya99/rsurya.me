@@ -63,7 +63,7 @@ const otherProjectLists = ref([
 ])
 </script>
 <template>
-  <div class="relative overflow-hidden h-full py-28">
+  <BuilderWrapper class="py-28">
     <div class="flex flex-col items-center justify-center mb-16 space-y-12">
       <h2 class="text-7xl font-medium capitalize">Other things I’ve done</h2>
       <TitleUnderline />
@@ -81,5 +81,5 @@ const otherProjectLists = ref([
     <div class="flex justify-center">
       <BaseButton class="px-12 py-4" text="See All" to="/others" />
     </div>
-  </div>
+  </BuilderWrapper>
 </template>

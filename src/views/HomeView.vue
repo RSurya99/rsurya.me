@@ -23,24 +23,7 @@ function parallax(e) {
     <BackgroundPatternSquare class="absolute bottom-[35%] -left-28 text-indigo-500 fill-current" />
     <SectionHomeProjects />
     <SectionHomeOthers />
-    <div class="relative overflow-hidden h-full py-28">
-      <div class="flex flex-col items-center justify-center mb-16 space-y-12">
-        <h1 class="text-7xl font-medium capitalize">Skills</h1>
-        <div class="layer" data-speed="1">
-          <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md mb-8" />
-          <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md ml-16" />
-        </div>
-      </div>
-      <div class="grid grid-cols-12 gap-4 px-24 mb-10">
-        <div
-          v-for="i in 16"
-          :key="i"
-          class="col-span-3 min-h-[200px] flex px-6 py-4 flex-col items-center justify-center bg-slate-700 rounded-lg shadow-md"
-        >
-          <IconMdiGithub class="text-4xl" />
-        </div>
-      </div>
-    </div>
+    <SectionHomeSkills />
     <div class="relative overflow-hidden h-full pt-28">
       <div class="grid grid-cols-12 px-24">
         <div class="col-span-6">

@@ -67,7 +67,7 @@ const projectLists = ref([
 ])
 </script>
 <template>
-  <div class="relative overflow-hidden h-full py-28">
+  <BuilderWrapper class="py-28">
     <div class="flex flex-col items-center justify-center mb-20 space-y-12">
       <h2 class="text-7xl font-medium capitalize">Projects</h2>
       <TitleUnderline />
@@ -96,5 +96,5 @@ const projectLists = ref([
         />
       </swiper-slide>
     </swiper>
-  </div>
+  </BuilderWrapper>
 </template>
