@@ -62,7 +62,7 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
     />
     <div
       data-speed="2"
-      class="hidden lg:block layer absolute -bottom-14 -left-14 w-40 h-40 rounded-full border-[16px] border-indigo-500"
+      class="hidden xl:block layer absolute -bottom-14 -left-14 w-40 h-40 rounded-full border-[16px] border-indigo-500"
     ></div>
   </div>
 </template>
