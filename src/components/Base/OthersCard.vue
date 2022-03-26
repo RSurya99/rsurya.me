@@ -22,7 +22,7 @@ const props = defineProps({
   <a
     :href="props.href"
     target="_blank"
-    class="col-span-4 max-w-[370px] min-h-[200px] flex px-6 py-4 flex-col justify-between bg-slate-700 rounded-lg shadow-md hover:-translate-y-2 transition duration-500"
+    class="col-span-6 lg:col-span-4 max-w-[370px] min-h-[200px] flex px-6 py-4 flex-col justify-between bg-slate-700 rounded-lg shadow-md hover:-translate-y-2 transition duration-500"
   >
     <div class="flex justify-between">
       <div>

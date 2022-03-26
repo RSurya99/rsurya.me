@@ -7,11 +7,11 @@ export default {
 import connectJSON from '@/assets/lottiefiles/connect.json'
 </script>
 <template>
-  <div class="relative overflow-hidden h-screen pt-28">
-    <div class="h-[90%] grid grid-cols-12 px-12 xl:px-24">
-      <div class="col-span-6">
+  <div class="relative overflow-hidden min-h-screen pt-28">
+    <div class="h-[90%] grid grid-cols-6 lg:grid-cols-12 px-12 xl:px-24 mb-10 lg:mb-0">
+      <div class="order-last lg:order-none col-span-6">
         <h1 class="text-7xl xl:text-8xl font-medium capitalize mb-6">Get In Touch</h1>
-        <TitleUnderline class="mb-10" />
+        <TitleUnderline class="hidden lg:block mb-10" />
         <ul class="space-y-4">
           <li>
             <a
@@ -54,10 +54,11 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
     <p class="text-center text-lg pb-4">Copyright © 2022 Created by RSurya99</p>
     <BackgroundPatternStripCircle
       data-speed="2"
-      class="layer absolute -bottom-36 -right-14 text-indigo-500 fill-current transform -rotate-12 w-40 h-40"
+      class="hidden lg:block layer absolute -bottom-36 -right-14 text-indigo-500 fill-current transform -rotate-12 w-40 h-40"
     />
     <div
-      class="absolute -bottom-14 -left-14 w-40 h-40 rounded-full border-[16px] border-indigo-500"
+      data-speed="2"
+      class="hidden lg:block layer absolute -bottom-14 -left-14 w-40 h-40 rounded-full border-[16px] border-indigo-500"
     ></div>
   </div>
 </template>

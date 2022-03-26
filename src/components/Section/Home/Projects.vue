@@ -9,6 +9,17 @@ import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/autoplay'
 
+const slidePerView = computed(() => {
+  if (window.innerWidth > 767 && window.innerWidth < 1024) {
+    return 1.8
+  } else if (window.innerWidth > 640 && window.innerWidth < 767) {
+    return 1.2
+  } else if (window.innerWidth < 640) {
+    return 1.1
+  }
+  return 2.2
+})
+
 const projectLists = ref([
   {
     img: '/projects/Horizon-5.webp',
@@ -82,7 +93,7 @@ const projectLists = ref([
     </div>
     <swiper
       :loop="true"
-      :slides-per-view="2.2"
+      :slides-per-view="slidePerView"
       :centered-slides="true"
       :space-between="50"
       :initial-slide="2"

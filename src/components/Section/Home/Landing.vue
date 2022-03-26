@@ -8,12 +8,12 @@ import workJSON from '@/assets/lottiefiles/work-from-home.json'
 </script>
 <template>
   <BuilderWrapper class="pb-28">
-    <div class="relative overflow-hidden h-screen">
-      <div class="grid grid-cols-12 gap-20 px-12 xl:px-24">
-        <div class="col-span-6">
+    <div class="relative overflow-hidden min-h-screen">
+      <div class="grid grid-cols-6 lg:grid-cols-12 gap-20 px-12 xl:px-24">
+        <div class="col-span-6 text-center lg:text-left mt-10 lg:mt-0">
           <span class="px-2 text-lg font-lightNovel">ポートフォリオ</span>
           <h1 class="heading-1 uppercase">Rafli Surya Pratama</h1>
-          <TitleUnderline class="mb-6 xl:mb-10" />
+          <TitleUnderline class="hidden lg:block mb-6 xl:mb-10" />
           <p class="text">Frontend Engineer</p>
         </div>
         <div class="col-span-6">
@@ -27,18 +27,27 @@ import workJSON from '@/assets/lottiefiles/work-from-home.json'
         class="hidden xl:block layer absolute top-14 left-0 w-20 h-3 bg-indigo-500"
       ></div>
       <div data-speed="-5" class="layer absolute bottom-44 -right-4 w-20 h-3 bg-indigo-500"></div>
-      <BackgroundPatternPolygon3d data-speed="-5" class="layer absolute -top-8 left-[45%]" />
+      <BackgroundPatternPolygon3d
+        data-speed="-5"
+        class="hidden lg:block layer absolute -top-8 left-[45%]"
+      />
       <BackgroundPatternSquare
         data-speed="5"
-        class="layer absolute top-0 -right-36 text-indigo-500 fill-current"
+        class="hidden lg:block layer absolute top-0 -right-36 text-indigo-500 fill-current"
       />
-      <BackgroundPatternCross data-speed="2" class="layer absolute bottom-28 left-[40%]" />
-      <BackgroundPatternStripDot data-speed="6" class="layer absolute bottom-20 right-64" />
+      <BackgroundPatternCross
+        data-speed="2"
+        class="hidden lg:block layer absolute bottom-28 left-[40%]"
+      />
+      <BackgroundPatternStripDot
+        data-speed="6"
+        class="hidden lg:block layer absolute bottom-20 right-64"
+      />
     </div>
     <img
       src="@/assets/pattern/japan.svg"
       data-speed="8"
-      class="layer absolute -bottom-10 -right-56 z-10"
+      class="hidden lg:block layer absolute -bottom-10 -right-56 z-10"
     />
   </BuilderWrapper>
 </template>
