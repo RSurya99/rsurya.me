@@ -5,10 +5,10 @@ export default {
 </script>
 <template>
   <div class="relative overflow-hidden h-full py-24">
-    <div class="grid grid-cols-12 gap-6 px-24">
+    <div class="grid grid-cols-12 gap-6 px-12 xl:px-24">
       <div class="col-span-7">
         <h1 class="heading-1 capitalize">About Me</h1>
-        <TitleUnderline class="mb-10" />
+        <TitleUnderline class="mb-6 xl:mb-10" />
         <p class="text mb-10">
           I am a Frontend Engineer with a high <br />
           enthusiast of open-source.

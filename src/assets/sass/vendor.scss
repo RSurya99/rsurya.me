@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .heading-1{
-  @apply text-9xl font-medium mb-6;
+  @apply text-8xl xl:text-9xl font-medium mb-6;
 }
 
 .text {
-  @apply text-2xl text-slate-200;
+  @apply text-xl xl:text-2xl text-slate-200;
 }

@@ -68,11 +68,11 @@ const projectLists = ref([
 </script>
 <template>
   <BuilderWrapper class="py-28">
-    <div class="flex flex-col items-center justify-center mb-20 space-y-12">
-      <h2 class="text-7xl font-medium capitalize">Projects</h2>
+    <div class="flex flex-col items-center justify-center mb-16 xl:mb-20 space-y-12">
+      <h2 class="text-6xl xl:text-7xl font-medium capitalize">Projects</h2>
       <TitleUnderline />
     </div>
-    <div class="flex justify-end px-24 py-4">
+    <div class="flex justify-end px-12 xl:px-24 py-4">
       <RouterLink
         to="/projects"
         class="px-2.5 py-2 hover:bg-slate-700 rounded-lg flex items-center transition duration-300"

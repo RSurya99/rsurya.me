@@ -90,10 +90,10 @@ const skillItems = ref([
 <template>
   <div class="relative overflow-hidden h-full py-28">
     <div class="flex flex-col items-center justify-center mb-16 space-y-12">
-      <h2 class="text-7xl font-medium capitalize">Skills</h2>
+      <h2 class="text-6xl xl:text-7xl font-medium capitalize">Skills</h2>
       <TitleUnderline />
     </div>
-    <div class="grid grid-cols-12 gap-4 px-24 mb-10">
+    <div class="grid grid-cols-12 gap-4 px-12 xl:px-24 mb-10">
       <BaseSkillCard
         v-for="skillItem in skillItems"
         :key="skillItem.title"

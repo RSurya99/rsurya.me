@@ -8,16 +8,16 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
 </script>
 <template>
   <div class="relative overflow-hidden h-screen pt-28">
-    <div class="h-[90%] grid grid-cols-12 px-24">
+    <div class="h-[90%] grid grid-cols-12 px-12 xl:px-24">
       <div class="col-span-6">
-        <h1 class="text-8xl font-medium capitalize mb-6">Get In Touch</h1>
+        <h1 class="text-7xl xl:text-8xl font-medium capitalize mb-6">Get In Touch</h1>
         <TitleUnderline class="mb-10" />
         <ul class="space-y-4">
           <li>
             <a
               href="mailto:rafli.rfsp@gmail.com"
               target="_blank"
-              class="text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
+              class="text-xl xl:text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
             >
               <IconMdiEmail class="mr-2" />
               rafli.rfsp@gmail.com
@@ -27,7 +27,7 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
             <a
               href="https://github.com/rsurya99"
               target="_blank"
-              class="text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
+              class="text-xl xl:text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
             >
               <IconMdiGithub class="mr-2" />
               RSurya99
@@ -37,7 +37,7 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
             <a
               href="https://www.linkedin.com/in/rsurya-dev"
               target="_blank"
-              class="text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
+              class="text-xl xl:text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
             >
               <IconMdiLinkedin class="mr-2" />
               Rafli Surya Pratama
