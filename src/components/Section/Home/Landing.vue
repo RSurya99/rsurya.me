@@ -4,9 +4,6 @@ export default {
 }
 </script>
 <script setup lang="ts">
-import { Vue3Lottie } from 'vue3-lottie'
-import 'vue3-lottie/dist/style.css'
-
 import workJSON from '@/assets/lottiefiles/work-from-home.json'
 </script>
 <template>
@@ -21,7 +18,7 @@ import workJSON from '@/assets/lottiefiles/work-from-home.json'
         </div>
         <div class="col-span-6">
           <div class="-mt-8 -mr-8">
-            <Vue3Lottie :animationData="workJSON" />
+            <BaseLottieFiles :lottie="workJSON" />
           </div>
         </div>
       </div>

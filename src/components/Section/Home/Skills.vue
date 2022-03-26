@@ -23,7 +23,7 @@ const skillItems = ref([
   {
     title: 'NuxtJS',
     desc: '10 Months Experience',
-    iconBackground: 'bg-emerald-100',
+    iconBackground: 'bg-green-100',
   },
   {
     title: 'TailwindCSS',

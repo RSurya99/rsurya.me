@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import { Vue3Lottie } from 'vue3-lottie'
-import 'vue3-lottie/dist/style.css'
-
-import connectJSON from '../assets/lottiefiles/connect.json'
-
 document.addEventListener('mousemove', parallax)
 
 function parallax(e) {
@@ -20,62 +15,17 @@ function parallax(e) {
     <SectionNavbar />
     <SectionHomeLanding />
     <SectionHomeAbout />
-    <BackgroundPatternSquare class="absolute bottom-[35%] -left-28 text-indigo-500 fill-current" />
+    <BackgroundPatternSquare
+      data-speed="5"
+      class="layer absolute bottom-[30%] -left-28 text-indigo-500 fill-current"
+    />
+    <BackgroundPatternSquare
+      data-speed="5"
+      class="layer absolute top-[45%] -right-40 text-indigo-500 fill-current"
+    />
     <SectionHomeProjects />
     <SectionHomeOthers />
     <SectionHomeSkills />
-    <div class="relative overflow-hidden h-full pt-28">
-      <div class="grid grid-cols-12 px-24">
-        <div class="col-span-6">
-          <h1 class="text-8xl font-medium capitalize mb-6">Get In Touch</h1>
-          <div class="layer mb-10" data-speed="1">
-            <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md mb-8" />
-            <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md ml-16" />
-          </div>
-          <ul class="space-y-4">
-            <li>
-              <a
-                href="mailto:rafli.rfsp@gmail.com"
-                target="_blank"
-                class="text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
-              >
-                <IconMdiEmail class="mr-2" />
-                rafli.rfsp@gmail.com
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/rsurya99"
-                target="_blank"
-                class="text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
-              >
-                <IconMdiGithub class="mr-2" />
-                RSurya99
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/rsurya-dev"
-                target="_blank"
-                class="text-2xl font-medium text-slate-200 hover:text-slate-300 transition duration-300 flex"
-              >
-                <IconMdiLinkedin class="mr-2" />
-                Rafli Surya Pratama
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-span-6">
-          <div class="-mt-32 -mr-16">
-            <Vue3Lottie :animationData="connectJSON" />
-          </div>
-        </div>
-      </div>
-      <div class="text-center text-lg py-4">Copyright © 2022 Created by RSurya99</div>
-      <BackgroundPatternStripCircle
-        data-speed="2"
-        class="layer absolute -bottom-32 -right-14 text-indigo-500 fill-current transform -rotate-12 w-40 h-40"
-      />
-    </div>
+    <SectionHomeContact />
   </div>
 </template>
