@@ -11,6 +11,7 @@ declare module 'vue' {
     BackgroundPatternStripDot: typeof import('./components/BackgroundPattern/StripDot.vue')['default']
     BackgroundPatternZigzag: typeof import('./components/BackgroundPattern/Zigzag.vue')['default']
     BaseButton: typeof import('./components/Base/Button.vue')['default']
+    BaseCarouselProjectItem: typeof import('./components/Base/CarouselProjectItem.vue')['default']
     BaseNavbarHamburgerItem: typeof import('./components/Base/NavbarHamburgerItem.vue')['default']
     BaseNavbarSocialItem: typeof import('./components/Base/NavbarSocialItem.vue')['default']
     BuilderWrapper: typeof import('./components/Builder/Wrapper.vue')['default']
@@ -26,6 +27,7 @@ declare module 'vue' {
     IconMdiTwitter: typeof import('~icons/mdi/twitter')['default']
     SectionHomeAbout: typeof import('./components/Section/Home/About.vue')['default']
     SectionHomeLanding: typeof import('./components/Section/Home/Landing.vue')['default']
+    SectionHomeProjects: typeof import('./components/Section/Home/Projects.vue')['default']
     SectionNavbar: typeof import('./components/Section/Navbar.vue')['default']
     TitleUnderline: typeof import('./components/TitleUnderline.vue')['default']
   }

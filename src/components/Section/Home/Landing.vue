@@ -16,7 +16,7 @@ import workJSON from '@/assets/lottiefiles/work-from-home.json'
         <div class="col-span-6">
           <span class="px-2 text-lg font-bold font-lightNovel">ポートフォリオ</span>
           <h1 class="heading-1 uppercase">Rafli Surya Pratama</h1>
-          <TitleUnderline />
+          <TitleUnderline class="mb-10" />
           <p class="text">Frontend Engineer</p>
         </div>
         <div class="col-span-6">

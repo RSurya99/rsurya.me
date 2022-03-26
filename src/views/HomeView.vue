@@ -1,10 +1,4 @@
 <script setup lang="ts">
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue'
-
-// Import Swiper styles
-import 'swiper/css'
-import 'swiper/css/autoplay'
 import { Vue3Lottie } from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
 
@@ -27,67 +21,7 @@ function parallax(e) {
     <SectionHomeLanding />
     <SectionHomeAbout />
     <BackgroundPatternSquare class="absolute bottom-[35%] -left-28 text-indigo-500 fill-current" />
-    <div class="relative overflow-hidden h-full py-28">
-      <div class="flex flex-col items-center justify-center mb-20 space-y-12">
-        <h1 class="text-7xl font-medium capitalize">Projects</h1>
-        <div class="layer" data-speed="2">
-          <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md mb-8" />
-          <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md ml-16" />
-        </div>
-      </div>
-      <div class="flex justify-end px-24 py-4">
-        <a
-          href="#"
-          class="px-2.5 py-2 hover:bg-slate-700 rounded-lg flex items-center transition duration-300"
-        >
-          See More <IconMdiChevronRight class="ml-2 text-xl" />
-        </a>
-      </div>
-      <swiper
-        :loop="true"
-        :slides-per-view="2.2"
-        :centered-slides="true"
-        :space-between="50"
-        :initial-slide="2"
-      >
-        <swiper-slide>
-          <img src="/projects/Horizon-5.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Horizon</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/Indiedu-3.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Indiedu</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/Nefa-3.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Nefa</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/wbw.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">WargaBantuWarga</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/Cetan-1.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Cetan</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/Simono-6.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Simple Monochrome</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/MarinaHotel-2.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Marina Hotel</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/Spp-1.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Sistem Pembayaran SPP</p>
-        </swiper-slide>
-        <swiper-slide>
-          <img src="/projects/PasarFashionary-1.webp" class="w-full" alt="" />
-          <p class="text-xl mt-2 text-center">Pasar Fashionary</p>
-        </swiper-slide>
-      </swiper>
-    </div>
+    <SectionHomeProjects />
     <div class="relative overflow-hidden h-full py-28">
       <div class="flex flex-col items-center justify-center mb-16 space-y-12">
         <h1 class="text-7xl font-medium capitalize">Other things I’ve done</h1>
