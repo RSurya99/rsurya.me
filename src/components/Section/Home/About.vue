@@ -13,7 +13,7 @@ export default {
           I am a Frontend Engineer with a high <br />
           enthusiast of open-source.
         </p>
-        <BaseButton class="px-10 py-5" text="Read More" to="/about" />
+        <BaseButton class="px-10 py-5 text-indigo-500" text="Read More" to="/about" />
       </div>
       <div class="col-span-12 lg:col-span-5">
         <div class="mx-auto max-w-[504px] rounded-full overflow-hidden grayscale">

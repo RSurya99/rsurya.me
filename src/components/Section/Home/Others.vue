@@ -81,7 +81,7 @@ const otherProjectLists = ref([
       />
     </div>
     <div class="flex justify-center">
-      <BaseButton class="px-12 py-4" text="See All" to="/others" />
+      <BaseButton class="px-12 py-4 text-indigo-500" text="See All" to="/others" />
     </div>
   </BuilderWrapper>
 </template>

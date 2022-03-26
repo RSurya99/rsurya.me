@@ -9,6 +9,12 @@ const router = createRouter({
       name: 'home',
       component: () => import('../views/HomeView.vue'),
     },
+
+    { path: '/404', component: () => import('../views/404.vue') },
+    {
+      path: '/:catchAll(.*)', // Unrecognized path automatically matches 404
+      redirect: '/404',
+    },
   ],
 })
 
