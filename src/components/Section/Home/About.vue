@@ -5,7 +5,7 @@ export default {
 </script>
 <template>
   <div class="relative overflow-hidden h-full py-24">
-    <div class="grid grid-cols-12 gap-6 px-12 xl:px-24">
+    <div class="grid grid-cols-12 gap-6 px-6 sm:px-12 xl:px-24">
       <div class="order-last lg:order-none col-span-12 lg:col-span-7 text-center lg:text-left">
         <h1 class="heading-1 capitalize">About Me</h1>
         <TitleUnderline class="hidden lg:block mb-6 xl:mb-10" />

@@ -7,17 +7,22 @@ export default {
 import { Swiper, SwiperSlide } from 'swiper/vue'
 
 import 'swiper/css'
-import 'swiper/css/autoplay'
 
 const slidePerView = computed(() => {
   if (window.innerWidth > 767 && window.innerWidth < 1024) {
     return 1.8
-  } else if (window.innerWidth > 640 && window.innerWidth < 767) {
+  } else if (window.innerWidth < 767) {
     return 1.2
-  } else if (window.innerWidth < 640) {
-    return 1.1
   }
   return 2.2
+})
+const spaceBetween = computed(() => {
+  if (window.innerWidth > 767 && window.innerWidth < 1024) {
+    return 35
+  } else if (window.innerWidth < 767) {
+    return 25
+  }
+  return 50
 })
 
 const projectLists = ref([
@@ -83,7 +88,7 @@ const projectLists = ref([
       <h2 class="text-6xl xl:text-7xl font-medium capitalize">Projects</h2>
       <TitleUnderline />
     </div>
-    <div class="flex justify-end px-12 xl:px-24 py-4">
+    <div class="flex justify-end px-6 sm:px-12 xl:px-24 py-4">
       <RouterLink
         to="/projects"
         class="px-2.5 py-2 hover:bg-slate-700 rounded-lg flex items-center transition duration-300"
@@ -95,7 +100,7 @@ const projectLists = ref([
       :loop="true"
       :slides-per-view="slidePerView"
       :centered-slides="true"
-      :space-between="50"
+      :space-between="spaceBetween"
       :initial-slide="2"
     >
       <swiper-slide v-for="item in projectLists" :key="item.title">

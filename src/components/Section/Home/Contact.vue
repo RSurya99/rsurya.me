@@ -8,9 +8,13 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
 </script>
 <template>
   <div class="relative overflow-hidden min-h-screen pt-28">
-    <div class="h-[90%] grid grid-cols-6 lg:grid-cols-12 px-12 xl:px-24 mb-10 lg:mb-0">
+    <div class="h-[90%] grid grid-cols-6 lg:grid-cols-12 px-12 xl:px-24 mb-16 sm:mb-10 lg:mb-0">
       <div class="order-last lg:order-none col-span-6">
-        <h1 class="text-7xl xl:text-8xl font-medium capitalize mb-6">Get In Touch</h1>
+        <h1
+          class="text-5xl sm:text-7xl xl:text-8xl font-medium capitalize mb-6 text-center sm:text-left"
+        >
+          Get In Touch
+        </h1>
         <TitleUnderline class="hidden lg:block mb-10" />
         <ul class="space-y-4">
           <li>
@@ -46,7 +50,7 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
         </ul>
       </div>
       <div class="col-span-6">
-        <div class="-mt-32 -mr-16">
+        <div class="-mt-24 sm:-mt-32 sm:-mr-16">
           <BaseLottieFiles :lottie="connectJSON" />
         </div>
       </div>

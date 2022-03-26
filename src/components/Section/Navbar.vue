@@ -32,7 +32,7 @@ const hamburgerItems = ref([
 ])
 </script>
 <template>
-  <header class="w-full px-12 xl:px-24 py-8 transition-all duration-300">
+  <header class="w-full px-6 sm:px-12 xl:px-24 py-8 transition-all duration-300">
     <nav class="bg-transparent flex items-center justify-between">
       <a href="#" class="text-2xl hover:text-slate-300 transition duration-300l">RSurya99</a>
       <ul class="flex items-center">

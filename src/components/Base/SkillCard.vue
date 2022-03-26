@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="card relative overflow-hidden col-span-4 xl:col-span-3 min-h-[200px] flex px-6 py-4 flex-col items-center justify-center bg-slate-700 rounded-lg shadow-md"
+    class="card relative overflow-hidden col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3 min-h-[200px] flex px-6 py-4 flex-col items-center justify-center bg-slate-700 rounded-lg shadow-md"
   >
     <div
       class="icon absolute top-0 left-0 z-20 w-full h-full duration-500 flex items-center justify-center"

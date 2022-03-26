@@ -65,10 +65,12 @@ const otherProjectLists = ref([
 <template>
   <BuilderWrapper class="py-28">
     <div class="flex flex-col items-center justify-center mb-16 space-y-12">
-      <h2 class="text-6xl xl:text-7xl font-medium capitalize">Other things I’ve done</h2>
+      <h2 class="text-6xl xl:text-7xl font-medium capitalize text-center lg:text-left">
+        Other things I’ve done
+      </h2>
       <TitleUnderline />
     </div>
-    <div class="grid grid-cols-12 gap-4 xl:gap-8 px-12 xl:px-24 mb-10">
+    <div class="grid grid-cols-12 gap-4 xl:gap-8 px-6 sm:px-12 xl:px-24 mb-10">
       <BaseOthersCard
         v-for="item in otherProjectLists"
         :key="item.title"

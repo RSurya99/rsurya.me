@@ -8,7 +8,11 @@ const props = defineProps({
 </script>
 <template>
   <li class="mr-16">
-    <a :href="props.href" target="_blank" class="hover:text-slate-300 transition duration-300">
+    <a
+      :href="props.href"
+      target="_blank"
+      class="hidden md:inline-block hover:text-slate-300 transition duration-300"
+    >
       <slot></slot>
     </a>
   </li>
