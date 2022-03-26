@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/vue'
 import 'swiper/css'
 import 'swiper/css/autoplay'
 
-const projectLists = [
+const projectLists = ref([
   {
     img: '/projects/Horizon-5.webp',
     title: 'Horizon',
@@ -64,12 +64,12 @@ const projectLists = [
     alt: 'pasar-fashionary',
     to: '/projects/pasar-fashionary',
   },
-]
+])
 </script>
 <template>
   <div class="relative overflow-hidden h-full py-28">
     <div class="flex flex-col items-center justify-center mb-20 space-y-12">
-      <h1 class="text-7xl font-medium capitalize">Projects</h1>
+      <h2 class="text-7xl font-medium capitalize">Projects</h2>
       <TitleUnderline />
     </div>
     <div class="flex justify-end px-24 py-4">

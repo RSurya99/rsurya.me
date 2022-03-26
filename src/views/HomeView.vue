@@ -22,40 +22,7 @@ function parallax(e) {
     <SectionHomeAbout />
     <BackgroundPatternSquare class="absolute bottom-[35%] -left-28 text-indigo-500 fill-current" />
     <SectionHomeProjects />
-    <div class="relative overflow-hidden h-full py-28">
-      <div class="flex flex-col items-center justify-center mb-16 space-y-12">
-        <h1 class="text-7xl font-medium capitalize">Other things I’ve done</h1>
-        <div class="layer" data-speed="1">
-          <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md mb-8" />
-          <hr class="w-[100px] h-1 border-0 bg-indigo-500 rounded-md ml-16" />
-        </div>
-      </div>
-      <div class="grid grid-cols-12 gap-y-8 gap-x-10 px-24 mb-10">
-        <div
-          v-for="i in 6"
-          :key="i"
-          class="col-span-4 max-w-[370px] min-h-[200px] flex px-6 py-4 flex-col justify-between bg-slate-700 rounded-lg shadow-md hover:-translate-y-2 transition duration-500"
-        >
-          <div class="flex justify-between">
-            <div>
-              <IconMdiFolderOpenOutline class="text-2xl text-indigo-500 mb-2" />
-              <h3 class="text-xl font-medium">Vue 3 Vite Starter</h3>
-            </div>
-            <IconMdiGithub class="text-2xl" />
-          </div>
-          <p class="text-slate-300 tracking-wide text-sm pr-8">
-            A Vue 3 starter template or boilerplate for your new Vue projects using Vite.
-          </p>
-        </div>
-      </div>
-      <div class="flex justify-center">
-        <button
-          class="px-12 py-4 border-2 border-indigo-500 text-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30 transition duration-300 text-lg font-medium rounded-full"
-        >
-          See All
-        </button>
-      </div>
-    </div>
+    <SectionHomeOthers />
     <div class="relative overflow-hidden h-full py-28">
       <div class="flex flex-col items-center justify-center mb-16 space-y-12">
         <h1 class="text-7xl font-medium capitalize">Skills</h1>

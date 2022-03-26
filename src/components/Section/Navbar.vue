@@ -12,7 +12,7 @@ const sticky = computed(() => {
   }
 })
 
-const hamburgerItems = [
+const hamburgerItems = ref([
   {
     to: '/',
     text: 'Home',
@@ -29,7 +29,7 @@ const hamburgerItems = [
     to: '/about',
     text: 'About',
   },
-]
+])
 </script>
 <template>
   <header class="w-full px-24 py-10 transition-all duration-300">
