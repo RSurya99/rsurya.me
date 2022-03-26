@@ -43,7 +43,7 @@ const hamburgerItems = ref([
           <IconMdiInstagram class="text-2xl" />
         </BaseNavbarSocialItem>
         <BaseNavbarSocialItem href="https://linkedin.com/in/rsurya-dev">
-          <IconMdiTwitter class="text-2xl" />
+          <IconMdiLinkedin class="text-2xl" />
         </BaseNavbarSocialItem>
         <BaseNavbarSocialItem href="https://github.com/rsurya99">
           <IconMdiGithub class="text-2xl" />
