@@ -18,15 +18,15 @@ const otherProjectLists = ref([
     icon: 'github',
   },
   {
-    title: 'Vue JS 3 Documentation',
+    title: 'Vue JS 3 ID Documentation',
     description: 'Vue 3 Core Documentation Translated in Indonesian',
-    href: 'https://github.com/RSurya99/docs-next',
+    href: 'https://github.com/vuejs-id/docs-next',
     icon: 'github',
   },
   {
     title: 'Osu! Wiki Documentation',
     description: 'home of the osu! wiki',
-    href: 'https://github.com/RSurya99/osu-wiki',
+    href: 'https://github.com/ppy/osu-wiki',
     icon: 'github',
   },
   {
