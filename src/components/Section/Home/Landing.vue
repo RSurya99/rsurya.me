@@ -9,14 +9,17 @@ import workJSON from '@/assets/lottiefiles/work-from-home.json'
 <template>
   <BuilderWrapper class="pb-28">
     <div class="relative overflow-hidden min-h-screen">
-      <div class="grid grid-cols-6 lg:grid-cols-12 gap-20 px-6 sm:px-12 xl:px-24">
-        <div class="col-span-6 text-center lg:text-left mt-10 lg:mt-0">
-          <span class="px-2 text-lg font-lightNovel mb-1">ポートフォリオ</span>
+      <div class="grid grid-cols-6 lg:grid-cols-12 lg:gap-20 px-6 sm:px-12 xl:px-24">
+        <div class="col-span-6 w-full text-center lg:text-left mt-10 lg:mt-0 2xl:my-auto">
+          <span class="px-2 text-lpg font-lightNovel mb-1">ポートフォリオ</span>
           <h1 class="heading-1 uppercase">Rafli Surya Pratama</h1>
           <TitleUnderline class="hidden lg:block mb-6 xl:mb-10" />
-          <p class="text">Frontend Engineer</p>
+          <p class="text">
+            Frontend Engineer / <br />
+            Web Developer
+          </p>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 mt-4 lg:mt-0">
           <div class="-mt-8 -mr-8">
             <BaseLottieFiles :lottie="workJSON" />
           </div>

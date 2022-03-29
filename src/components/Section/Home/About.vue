@@ -10,8 +10,8 @@ export default {
         <h1 class="heading-1 capitalize">About Me</h1>
         <TitleUnderline class="hidden lg:block mb-6 xl:mb-10" />
         <p class="text mb-14 lg:mb-10">
-          I am a Frontend Engineer with a high <br />
-          enthusiast of open-source.
+          I am a Web Developer with a high <br />
+          enthusiast of open-source, typescript, and testing.
         </p>
         <BaseButton class="px-10 py-5 text-indigo-500" text="Read More" to="/about" />
       </div>

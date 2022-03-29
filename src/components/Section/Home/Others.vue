@@ -70,7 +70,9 @@ const otherProjectLists = ref([
       </h2>
       <TitleUnderline />
     </div>
-    <div class="grid grid-cols-12 gap-4 xl:gap-8 px-6 sm:px-12 xl:px-24 mb-10">
+    <div
+      class="grid grid-cols-12 gap-4 xl:gap-8 px-6 sm:px-12 xl:px-24 mb-10 2xl:max-w-screen-2xl 2xl:mx-auto"
+    >
       <BaseOthersCard
         v-for="item in otherProjectLists"
         :key="item.title"

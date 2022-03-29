@@ -9,7 +9,7 @@ import connectJSON from '@/assets/lottiefiles/connect.json'
 <template>
   <div class="relative overflow-hidden min-h-screen pt-28">
     <div class="h-[90%] grid grid-cols-6 lg:grid-cols-12 px-12 xl:px-24 mb-16 sm:mb-10 lg:mb-0">
-      <div class="order-last lg:order-none col-span-6">
+      <div class="order-last lg:order-none col-span-6 2xl:my-auto">
         <h1
           class="text-5xl sm:text-7xl xl:text-8xl font-medium capitalize mb-6 text-center sm:text-left"
         >
